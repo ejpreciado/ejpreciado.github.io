@@ -3,17 +3,30 @@ body {
   margin: 0;
 }
 
-p {
+.text {
   font-family: "Raleway", sans-serif;
+}
+
+#welcome {
   font-size: 2em;
 }
 
+#info {
+  font-size: 1em;
+}
+
 #main-container {
-  align-items: center;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  width: 100vw;
+  height: 100vh;
+}
+
+#side-bar {
+  margin: 2em;
+}
+
+#content {
+  flex: 1 1 auto;
+  overflow: auto;
 }
 
 #ejp {
