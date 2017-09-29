@@ -1,11 +1,10 @@
 body {
-  background-color: #142852;
+  background-color: white;
   margin: 0;
 }
 
 p {
-  color: white;
-  font-family: monospace;
+  font-family: "Raleway", sans-serif;
   font-size: 2em;
 }
 
@@ -17,6 +16,9 @@ p {
   width: 100vw;
 }
 
-#scruffy-pic {
-  width: 75%;
+#ejp {
+  width: 10em;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2.5px;
 } 
