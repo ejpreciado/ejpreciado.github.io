@@ -35,3 +35,14 @@ body {
   border-style: solid;
   border-width: 2.5px;
 } 
+
+.icon {
+  width: 2em;
+  margin: .5em;
+}
+
+#icon-row {
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
