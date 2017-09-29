@@ -59,6 +59,7 @@ a {
   height: 100%;
   flex: 1 1 auto;
   overflow: auto;
+  padding: 0em 4em 0em;
 }
 
 #welcome {
@@ -73,6 +74,7 @@ a {
   #profile {
     width: 100%;
     height: initial;
+    margin-top: 2em;
   }
 
   #ejp {
@@ -82,5 +84,14 @@ a {
 
   .icon {
     width: auto;
+  }
+
+  #content {
+    width: 100%;
+    text-align: center;
+  }
+
+  #welcome {
+    font-size: 3em;
   }
 }
