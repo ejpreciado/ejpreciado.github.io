@@ -17,7 +17,8 @@ body {
 
 #main-container {
   display: flex;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 #side-bar {
@@ -27,7 +28,7 @@ body {
 #content {
   flex: 1 1 auto;
   overflow: auto;
-  margin-left: 1.5em;
+  margin: 1.5em 1.5em 1.5em;
 }
 
 #ejp {
@@ -47,4 +48,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width:600px) {
+  #main-container {
+    flex-wrap: wrap;
+  }
+
+  #side-bar {
+    width: 100%;
+    height: initial;
+  }
+
+  #ejp {
+    margin: auto;
+    width: 100%;
+  }
+
+  .icon {
+    width: auto;
+  }
 }
