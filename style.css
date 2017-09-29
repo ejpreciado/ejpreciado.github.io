@@ -1,0 +1,22 @@
+body {
+  background-color: #142852;
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+#main-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+#scruffy-pic {
+  width: 75%;
+} 
